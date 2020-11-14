@@ -5,4 +5,5 @@ app/lib/
 tmp
 .DS_Store
 .idea
+.ng-react-copilot-data/
 angular-phonecat-snapshots
