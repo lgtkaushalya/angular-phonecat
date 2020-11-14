@@ -161,7 +161,9 @@ class PhoneDetailComponent extends Component {
 }
 
 PhoneDetailComponent.propTypes = {
-  phoneId: PropTypes.string
+  phoneId: PropTypes.string,
+  $filter: PropTypes.func,
+  Phone: PropTypes.func
 };
 
 export default PhoneDetailComponent;

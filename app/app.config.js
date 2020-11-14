@@ -6,7 +6,7 @@ angular.
     function config($routeProvider) {
       $routeProvider.
         when('/phones', {
-          template: '<phone-list></phone-list>'
+          template: '<phone-list-component></phone-list-component>'
         }).
         when('/phones/:phoneId', {
           template: function(urlattr){
