@@ -11,11 +11,22 @@
     "angular-resource": "1.8.x",
     "angular-route": "1.8.x",
     "bootstrap": "3.3.x",
-    "jquery": "3.3.x"
+    "jquery": "3.3.x",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "devDependencies": {
     "angular-mocks": "1.8.x",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "cpx": "^1.5.0",
+    "eslint": "^7.13.0",
+    "eslint-plugin-angular": "^4.0.1",
+    "eslint-plugin-html": "^6.1.0",
+    "eslint-plugin-ng-react-copilot": "file:../eslint-plugin-ng-react-copilot",
+    "eslint-plugin-react": "^7.21.5",
+    "htmlhint": "file:../HTMLHint",
     "http-server": "^0.11.1",
     "jasmine-core": "^3.5.0",
     "karma": "^3.1.4",

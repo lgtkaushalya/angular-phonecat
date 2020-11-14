@@ -9,7 +9,9 @@ angular.
           template: '<phone-list></phone-list>'
         }).
         when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
+          template: function(urlattr){
+            return '<phone-detail-component phone-id="\''+ String(urlattr.phoneId) +'\'"></phone-detail-component>';
+          }
         }).
         otherwise('/phones');
     }
